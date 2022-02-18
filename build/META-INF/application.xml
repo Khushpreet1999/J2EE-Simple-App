@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application version="8" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_8.xsd">
+  <display-name>EnterpriseClassLab1</display-name>
+  <module>
+    <web>
+      <web-uri>EnterpriseClassLab1-war.war</web-uri>
+      <context-root>/EnterpriseClassLab1-war</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>EnterpriseClassLab1-ejb.jar</ejb>
+  </module>
+</application>
